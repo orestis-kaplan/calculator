@@ -23,11 +23,4 @@ module.exports = {
   ],
   rules: {
   },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js','.jsx','.vue']
-      }
-    },
-  }
 };
