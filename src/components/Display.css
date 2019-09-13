@@ -1,0 +1,11 @@
+.display-comp{
+    background-color: #848593;
+    height: 100px;
+    display: flex;
+}
+.result{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: right;
+}
