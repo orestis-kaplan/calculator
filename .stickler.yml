@@ -4,3 +4,6 @@ linters:
     fixer: true
 fixers:
   enable: true
+files:
+  ignore:
+    - '.eslintrc.js'
