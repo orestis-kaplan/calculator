@@ -1,0 +1,10 @@
+.button{
+    width: 25%;
+    height: 100%;
+    border: 1px solid #bababa;
+    font-size: 23px;
+    font-weight: bold;
+}
+.zero:nth-child(1){
+    width: 50%;
+}

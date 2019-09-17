@@ -1,6 +1,7 @@
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
+import './App.css';
 
 // eslint-disable-next-line
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div id="app">
+      <div id="app" className="app-class">
         <Display />
         <ButtonPanel />
       </div>
