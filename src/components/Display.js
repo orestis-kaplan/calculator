@@ -5,7 +5,7 @@ import './Display.css';
 const Display = ({ result }) => (
   <div className="display-comp">
     <div className="result">
-      <p>{result}</p>
+      <p style={{ fontSize: '28px' }}>{result}</p>
     </div>
   </div>
 );
