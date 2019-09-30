@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import './ButtonPanel.css';
+import '../styles/ButtonPanel.css';
 
 const ButtonPanel = (props) => {
   const { handleClick } = props;
