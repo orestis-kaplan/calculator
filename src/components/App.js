@@ -1,12 +1,10 @@
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
-import './App.css';
+import '../styles/App.css';
 import calculate from '../logic/calculate';
 
-// eslint-disable-next-line
 class App extends React.Component {
-// eslint-disable-next-line
   constructor(props) {
     super(props);
     this.state = {
@@ -19,8 +17,7 @@ class App extends React.Component {
 
   handleClick(buttonName) {
     this.setState((prevState) =>
-      Object.assign({}, prevState, calculate(prevState, buttonName))
-    );
+      Object.assign({}, prevState, calculate(prevState, buttonName)));
   }
 
   render() {
