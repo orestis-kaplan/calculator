@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       next: '',
-      total: '',
+      total: '0',
       operation: '',
     };
     this.handleClick = this.handleClick.bind(this);
