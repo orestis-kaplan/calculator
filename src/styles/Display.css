@@ -2,6 +2,7 @@
     background-color: #848593;
     height: 100px;
     display: flex;
+    justify-content: flex-end;
 }
 .result{
     color: white;
