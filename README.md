@@ -1,7 +1,11 @@
 ## Calculator app
 This project is about a calculator app that does the basic math function (+,-,x,/) and '=','AC','+/-','%' functonalities.
 Online Preview: https://calculatorsemifinal.herokuapp.com/
-  
+
+## Screenshot
+
+![screenshot](https://github.com/userman95/calculator/blob/develop/public/Screenshot%20(177).png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for further development.
@@ -48,7 +52,3 @@ Finally, run `npm run deploy` and wait for it till is throws a `Published messag
 ## Authors
 
 * **[Orestis Kaplanis](https://github.com/userman95)**
-
-## Screenshot
-
-![screenshot](https://github.com/userman95/calculator/blob/develop/public/Screenshot%20(177).png)
